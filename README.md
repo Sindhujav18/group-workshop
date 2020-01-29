@@ -1,3 +1,3 @@
-# 44563-section-01-3 Icons for PWA
+# group-workshop
 Icon Creation for website (PWA)
 ## Starting with PWA
