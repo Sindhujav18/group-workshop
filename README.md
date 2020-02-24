@@ -1,12 +1,1 @@
-# group-workshop
-Icon Creation for website (PWA)
-## group members
-1. Sindhuja Valeti
-2. Sowmya Thogiti
-3. Sindhu Rani Goli
-
-
-GitHub page for [Sowmya_thogiti](https://github.com/sowmyathogiti)
-
-GitHub page for [Sindhuja Valeti](https://github.com/Sindhujav18)
-
+# Maitre-D-practise-app

@@ -1,0 +1,62 @@
+h1 {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+body {
+    flex-basis: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bill {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    max-width: 480px;
+}
+
+.bill>* {
+    margin: 5px;
+}
+
+input[type=number] {
+    border-radius: 6px;
+    border: salmon gray 1px;
+    padding: 8px 8px;
+    box-sizing: border-box;
+}
+
+#output {
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+}
+
+#output>* {
+    padding: 6px 0;
+    flex-basis: 35%;
+    flex-wrap: wrap
+}
+
+input[type=submit] {
+    flex-basis: 100%;
+    border-radius: 0px;
+    font-size: 24px;
+    color: rgb(47, 47, 228);
+}
+
+footer {
+    background-color: rgb(213, 213, 248);
+    color: red;
+    width: 100%;
+    text-align: center;
+}
+
+body, .sticky-footer-wrapper {
+    min-height: 100vh;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Maitre D Practice App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Example progressive web app">
+    <meta name="author" content="Sindhuja Valeti">
+    <link rel="stylesheet" href="sindhuja.css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel=icon href="images/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel=icon href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel=icon href="images/favicon.ico">
+    <link rel=icon href="images/apple-touch-icon.png" type="image/png">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"> <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+
+
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+
+    <h1>Maitre D</h1>
+    <main>
+
+
+        <div class="bill" name="bill" id="bill">
+
+            <div><label>Total: </label><input type="number" name="total" placeholder="Enter Total" id="total"></div>
+            <div> <label>Rate: </label><input type="number" name="rate" placeholder="Enter tip rate" id="rate"></div>
+        </div>
+
+        <div id="output">
+            <div class="output">Tip: </div>
+            <div class="output1" id="tip">$</div>
+            <br><br>
+            <div class="output">Tax: </div>
+            <div class="output1" id="tax">$</div>
+            <br><br>
+            <div class="output">Grand Total: </div>
+            <div class="output1" id="grandtotal">$</div>
+            <br><br>
+            <div><input type="submit" value="Calculate" name="submit" onclick="Bill()"></div>
+        </div>
+        <br><br>
+</body>
+</main>
+
+</html>
