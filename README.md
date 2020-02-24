@@ -1,7 +1,6 @@
 <<<<<<< HEAD
 # Maitre-D-practise-app
 =======
-# group-workshop
 Icon Creation for website (PWA)
 ## group members
 1. Sindhuja Valeti
