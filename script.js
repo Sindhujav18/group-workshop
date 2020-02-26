@@ -8,4 +8,8 @@ function Bill() {
     return false;
 }
 if ('serviceWorker' in navigator) { window.addEventListener('load', () => { 
+<<<<<<< HEAD
     navigator.serviceWorker.register('./service-worker.js') }) }
+=======
+    navigator.serviceWorker.register('./service-worker.js') }) }
+>>>>>>> ae47c975f866188e96527554db1e9f1fa2c6ffde
